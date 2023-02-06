@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background : linear-gradient(90deg, #0f9ae2, #753bf6);
+    align-items: center;
+    padding: 20px;
+}
+
+header h1{
+    color: #ffff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.formGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.formGroup input,button{
+    padding: 10px 15px;
+    border: none;
+}
+
+.formGroup input{
+    width: 100%;
+}
+
+.formGroup input:focus{
+    outline: none;
+}
+
+.formGroup button{
+    cursor: pointer;
+    background-color: #ffff;
+
+}
+
+.formGroup button:hover{
+    background-color: #dddd;
+    color: white;
+}
+
+/* TO DO LIST */
+.todoList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    
+}
+
+.todoList .singleTodo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 350px;
+    max-width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+}
